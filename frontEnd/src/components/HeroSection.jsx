@@ -1,6 +1,12 @@
-import React from 'react'
+// import React,{useRef,useEffect} from 'react'
 const HeroSection = () => {
+  // const input = useRef()
+
+  // useEffect(()=>{
+
+  // },[imput])
   return (
+    
     <div className='flex flex-col items-center mt-6 lg:mt-20'>
       <h1 className='text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide'>
       Transform PDFs 
@@ -10,6 +16,7 @@ const HeroSection = () => {
         <p className='text-xs text-slate-500 py-3'>Effortlessly convert your PDF documents into interactive quizzes, enabling a streamlined and engaging way to assess comprehension and reinforce learning directly from your content.</p>
       </h1>
     </div>
+
   )
 }
 
