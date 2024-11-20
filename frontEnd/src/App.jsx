@@ -1,5 +1,6 @@
 import './App.css'
-import Display from './components/Display'
+// import Display from './components/Display'
+import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import UploadPdf from './components/UploadPdf'
@@ -15,7 +16,8 @@ function App() {
           <HeroSection/>
         </div>
         <UploadPdf/>
-        <Display/>
+       
+        <Footer/>
       </>
   )
 }

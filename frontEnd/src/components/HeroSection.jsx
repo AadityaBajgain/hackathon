@@ -1,10 +1,5 @@
-// import React,{useRef,useEffect} from 'react'
 const HeroSection = () => {
-  // const input = useRef()
 
-  // useEffect(()=>{
-
-  // },[imput])
   return (
     
     <div className='flex flex-col items-center mt-6 lg:mt-20'>
